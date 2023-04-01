@@ -28,7 +28,7 @@ def take_command():
         pass
 
 # Authenticate with your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 
 def generate_response(command):
     response = openai.Completion.create(
